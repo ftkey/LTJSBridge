@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Futao' => 'ftkey@qq.com' }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/ftkey/LTWebView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ftkey/LTJSBridge.git", :tag => "#{s.version}" }
   s.frameworks = "Foundation", "UIKit", "WebKit"
   s.requires_arc = true
   s.default_subspecs = 'Core'
