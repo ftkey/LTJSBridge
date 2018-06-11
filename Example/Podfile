@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LTJSBridge_Example' do
+  pod 'LTJSBridge', :path => '../'
+
+  target 'LTJSBridge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

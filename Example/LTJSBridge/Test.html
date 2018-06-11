@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    </head>
+    <body>
+        <center>
+            <h2>JSBridge Demo</h2>
+        </center>
+        <br />
+        <center>
+            <p id="clientinfo"></p>
+            <center>
+                <p><a href="#" id="test">test</a></p>
+                <p><a href="#" id="test1">test1</a></p>
+                <p><a href="#" id="test2">test2</a></p>
+
+            </center>
+        </center>
+        <script>
+        var clientinfo = document.getElementById('clientinfo')
+        test.onclick = function() {
+            JSInterface.test(function(result) {
+                             clientinfo.innerHTML = "result: " +result;
+                             })
+                             return false
+        }
+        
+        test1.onclick = function() {
+            JSInterface.test1("str1","str2",function(result) {
+                              clientinfo.innerHTML = "result: " +result;
+                              })
+                              return false
+        }
+        test2.onclick = function() {
+            JSInterface.test2("str1","str2","str3","str4");
+            return false
+        }
+        </script>
+    </body>
+</html>
+

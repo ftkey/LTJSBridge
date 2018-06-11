@@ -1,0 +1,18 @@
+PODS:
+  - LTJSBridge (1.0):
+    - LTJSBridge/Core (= 1.0)
+  - LTJSBridge/Core (1.0)
+
+DEPENDENCIES:
+  - LTJSBridge (from `../`)
+
+EXTERNAL SOURCES:
+  LTJSBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTJSBridge: 546af7561b3904f9b0bb84aa1df254887fd48db7
+
+PODFILE CHECKSUM: 079b0b40c8abc2612d0d22a9b7afb4d47f6fb649
+
+COCOAPODS: 1.5.3

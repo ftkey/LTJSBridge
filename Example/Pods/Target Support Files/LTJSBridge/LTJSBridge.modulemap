@@ -1,0 +1,6 @@
+framework module LTJSBridge {
+  umbrella header "LTJSBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}
